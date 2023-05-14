@@ -75,7 +75,7 @@ class _LinkTextState extends State<LinkText> {
     final textStyle = widget.textStyle ?? themeData.textTheme.bodyText2;
     final linkStyle = widget.linkStyle ??
         themeData.textTheme.bodyText2?.copyWith(
-          color: themeData.accentColor,
+          color: themeData.colorScheme.primary,
           decoration: TextDecoration.underline,
         );
 
